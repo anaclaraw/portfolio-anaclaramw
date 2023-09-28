@@ -1,0 +1,75 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all .title {
+  /* box-shadow: 2px 2px 0px 2px black; */
+  margin-bottom: 30px;
+  padding: 10px;
+  filter: drop-shadow(5px 5px 5px rgba(147, 145, 145, 0.692));
+}
+
+.cursos {
+  width: 90%;
+  height: max-content;
+
+}
+
+.curso_item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10vw;
+  background-color: rgba(192, 192, 192, 0.678);
+  border-top: solid black 7px;
+
+}
+
+.ftprojects {
+  width: 470px;
+  box-shadow: 1px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  padding-top: 50px;
+  font-size: large;
+  width: 55%;
+}
+
+@media screen and (max-width: 800px) {
+  .curso_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: transparent;
+
+  }
+
+  .cursos {
+    width: 80%;
+
+
+  }
+  .text{
+    width: 90%;
+    font-size: medium;
+    
+  }
+  .curso_item{
+    background-color: rgb(180, 180, 180);
+    box-shadow: 8px 10px 1px 1px black;
+  }
+  
+
+
+}
+@media screen and (max-width: 500px) {
+  .text{
+    font-size: smaller;
+  }
+}

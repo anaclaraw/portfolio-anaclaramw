@@ -1,0 +1,78 @@
+.sobre {
+    padding-bottom: 5vw;
+
+}
+
+.container_projetos {
+    margin-top: 5vw;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.container_projetos svg {
+    font-size: 60px;
+    color: rgb(250, 250, 250);
+    margin-bottom: 30px;
+}
+.container_projetos svg:hover{
+    border: none;
+    border-radius:100px ;
+    color: #d5d5d5;
+}
+
+.container_sobre {
+    color: white;
+    margin-right: 30px;
+    max-width: 600px;
+    font-size: larger;
+    /* border-top: solid 5px #ffffffef; */
+
+}
+
+.grid1 {
+    background-color: #1A1A1A;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.ftprojects{
+    max-width: 60%;
+    height: 100px;
+    padding: 20px;
+}
+
+.box {
+    width: 300px;
+    height: min-content;
+    background-color: aliceblue;
+    margin: 20px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 5px 0 0 rgb(0, 0, 0);
+    transition: all 1s;
+
+}
+
+.box svg{
+    font-size: xx-large;
+    color: #1A1A1A;
+}
+.box:hover {
+    transform: scale(1.05) ;
+    filter: saturate(300%) brightness(120%) invert(90%);
+
+}
+
+  

@@ -1,0 +1,79 @@
+
+
+.op h2{
+    font-size: xx-large;
+    border-bottom: 5px solid black;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+
+.ftprojetos{
+    width: 70%;
+    border: 1px dashed rgb(0, 0, 0);
+    transition: 2s all;
+}
+.listproject{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  margin-bottom: 70px;
+  border-top: solid 1px black;
+}
+.listproject:nth-child(2){
+    border-top: none;
+    padding-top: 10px;
+}
+.itemproject{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.textproject{
+    background-color: #ffffffd9;
+    height: max-content;
+    min-width: 400px;
+    margin-left: -80px;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.686);
+  transition: 2s all;
+    
+}
+.textproject h4{
+    margin-bottom: 5px;
+    font-size: larger;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.row{
+    display:flex;   /* Alinha os itens horizontalmente */
+    align-items: center;
+    justify-content: space-between;
+}
+.row svg{
+    padding-right: 10px;
+    font-size: x-large;
+    color: black;
+}
+.languages{
+    display:flex;   /* Alinha os itens horizontalmente */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.textproject:hover{
+    background-color: rgb(255, 255, 255);
+    transform: translate(80px);
+}
+.ftprojetos:hover{
+    transform: scale(1.05); 
+}

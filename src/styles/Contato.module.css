@@ -1,0 +1,124 @@
+.container_contato{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 60px;
+   width: 100%;
+   margin-bottom: 200px;
+   align-items: center;
+   color: #000000;
+
+}
+
+.redes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  list-style: none;
+}
+.redes svg{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  padding:8px;
+  border: 1px solid none;
+  border-radius: 50px;
+  margin: 30px;
+
+}
+.redes svg:hover{
+  filter: drop-shadow(1px 2px 5px rgba(128, 128, 128, 0.634));
+  transform: scale(1.1);
+}
+.insta svg{
+  background: linear-gradient(to right, #CF51C2 0%, #723CCF 100%);
+}
+.git svg{
+  background-color: black ;
+}
+.linkedin svg{
+ background-color: rgb(0, 195, 255);
+}
+.email{
+  background-color: transparent;
+  border: none;
+}
+.email svg{
+  font-size: 80px;
+}
+
+.form{
+   padding: 20px;
+   background-color: rgba(247, 246, 246, 0);
+   border: 3px solid rgb(0, 0, 0);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 50px;
+   font-size: larger;
+   transition: all 2s;
+   color: #000000;
+   border-bottom-left-radius: 0;
+   /* box-shadow: 5px 5px 10px 1px rgba(210, 210, 210, 0.527); */
+}
+.form:hover{
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.686);
+}
+
+.button {
+  align-items: center;
+  background-color: #000000;
+  border-radius: 18px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 20px 25px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.button:active {
+  background-color: #041112;
+}
+
+.button:hover {
+  background-color: #525b65;
+}
+
+.input input{
+    display: block;
+    border: none;
+    font-size: medium;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    width: 90%;
+    transition-duration: 1s;
+}
+
+
+@media screen and (max-width:700px){
+   .container_contato{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+   }
+   .form{
+    max-width: 250px;
+   }
+}
