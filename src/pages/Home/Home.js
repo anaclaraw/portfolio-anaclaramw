@@ -62,7 +62,7 @@ function Home() {
                     <h2> &nbsp;&nbsp; Vamos trabalhar juntos!</h2>
                     <p>
                         Meu foco atual é me profissionalizar no mercado de trabalho, colocando em prática o que já aprendi e pronta para aprender mais,
-                        tenho a intenção de ser um diferencial e colaborar na conquista dos melhores resultados.
+                        tenho a intenção de ser um diferencial e colaborar na conquista dos melhores resultados...
                     </p>
                 </div>
                 <div className={styles.img_projects}>
