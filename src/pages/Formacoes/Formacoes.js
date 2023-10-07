@@ -21,7 +21,7 @@ function Formacoes() {
                 <div className={styles.grid}>
                     <div className={styles.box} id={styles.teste} >
                         <h3>Programação</h3>
-                        <p>Gosto da lógica de programação e entender o desenvolvimento do software por completo. Com foco em React.js  e Node.js, já tive experiência com as seguintes tecnologias:</p>
+                        <p>Gosto da lógica de programação e entender o desenvolvimento do software por completo. Com foco em React.js, Node.js e Mysql, já tive experiência com todos os seguintes recursos:</p>
                         <div className={styles.programacao}>
                             <li><SiHtml5 /></li>
                             <li><SiCss3 /></li>

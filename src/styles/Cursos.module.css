@@ -39,6 +39,10 @@
   font-size: large;
   width: 55%;
 }
+a{
+color: black;
+text-decoration: none;
+}
 
 @media screen and (max-width: 800px) {
   .curso_item {

@@ -10,7 +10,7 @@ function Curso() {
       <div className={styles.cursos}>
 
         <div className={styles.curso_item}>
-          <img className={styles.ftprojects} src='hardware_img.png' alt='foto_perfil'></img>
+          <img className={styles.ftprojects} src='hardware_img.png' alt='foto_certificado'></img>
           <div className={styles.text}>
             <h1>Oficina de Hardware</h1>
             <strong>2023 | FATEC Santana de Parnaíba</strong>
@@ -19,7 +19,7 @@ function Curso() {
         </div>
 
         <div className={styles.curso_item}>
-          <img className={styles.ftprojects} src='cursodatd.png' alt='foto_perfil'></img>
+          <img className={styles.ftprojects} src='cursodatd.png' alt='foto_certificado'></img>
           <div className={styles.text}>
             <h1>Design de Aplicativos na Transformação Digital</h1>
             <strong>2023 | Escola virtual do governo</strong>
@@ -36,26 +36,41 @@ function Curso() {
 
 
         <div className={styles.curso_item}>
-          <img className={styles.ftprojects} src='badgeaws.png' alt='foto_perfil'></img>
+          <img className={styles.ftprojects} src='badgeaws.png' alt='foto_certificado'></img>
           <div className={styles.text}>
             <h1>AWS Academy Cloud Foundations</h1>
             <strong>2023 | SENAI "Nadir Dias de Figueiredo"</strong>
 
             <p>O curso AWS Academy Cloud Foundations abrange uma ampla gama de tópicos cruciais relacionados à computação em nuvem e à AWS, incluindo conceitos fundamentais de nuvem, serviços essenciais da AWS, arquitetura em nuvem, segurança, gerenciamento, governança, custos e precificação. Além disso, oferece oportunidades práticas por meio de laboratórios para consolidar o aprendizado. Este curso serve como um alicerce sólido para indivíduos que buscam compreender e utilizar eficazmente os recursos da AWS, tornando-se proficientes na implementação e operação de soluções na nuvem. </p>
-            <Link to="https://www.credly.com/badges/332c5198-47c2-4946-b366-ddfc0ab49132/public_url"> acessar badge </Link>
-            <Link to="#"> acessar certificado SENAI </Link>
+            <Link to="https://www.credly.com/badges/332c5198-47c2-4946-b366-ddfc0ab49132/public_url"> Acessar badge </Link>
+            {/* <Link to="#"> Acessar certificado SENAI </Link> */}
           </div>
         </div>
 
 
         <div className={styles.curso_item}>
-          <img className={styles.ftprojects} src='logprog.png' alt='foto_perfil'></img>
+          <img className={styles.ftprojects} src='logprog.png' alt='foto_certificado'></img>
           <div className={styles.text}>
             <h1>Lógica de programação</h1>
             <strong>2023 | Cubos academy</strong>
             <p>Um curso de lógica de programação é projetado para ensinar os princípios fundamentais de como escrever algoritmos eficazes e estruturar o pensamento lógico para resolver problemas computacionais. Curso base para o mundo da programação, apenas para relembrar os conceitos. </p>
           </div>
         </div>
+
+        <div className={styles.curso_item}>
+          <img className={styles.ftprojects} src='certficadoMeta.png' alt='foto_certificado'></img>
+          <div className={styles.text}>
+            <h1>Realidade aumentada</h1>
+            <strong>2023 | Meta Spark</strong>
+            <p>No curso de realidade aumentada, os tópicos abordados incluíram: uma introdução à realidade aumentada,
+               destacando suas diferenças em relação à realidade virtual; o uso do software Meta Spark Studio, 
+               incluindo download e interface; a hierarquia de elementos como luzes, canvas e textos; 
+               a criação de materiais e texturas; o Patch Editor para criar efeitos personalizados; 
+               tipos de efeitos, como target tracking e experiências imersivas; o desenvolvimento de um filtro prático;
+                como testar e publicar esses efeitos na plataforma Hub Meta Spark; e orientações sobre como construir uma carreira na área de realidade aumentada, incluindo onde atuar e onde encontrar cursos adicionais da Meta para aprendizado contínuo. </p>
+          </div>
+        </div>
+
 
       </div>
     </div>)
