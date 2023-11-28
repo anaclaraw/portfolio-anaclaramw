@@ -6,12 +6,7 @@ import React from 'react';
 
 
 export default function ProjetoPage() {
-  function mouseEmCima(imagem) {
-    imagem.src = "logoPw.png";
-  }
-  function mouseFora(imagem) {
-    imagem.src = "school.png";
-  }
+ 
   return (
     <div className={styles.op}>
       <h2>Meus projetos</h2>
@@ -46,8 +41,8 @@ export default function ProjetoPage() {
               <div className={styles.svgprojects}>
                 <Link to="https://github.com/anaclaraw/LoginPHP.git">
                   <AiOutlineGithub /></Link></div></div>
-            Ut fugiat consectetur aliqua non excepteur incididunt labore fugiat aliqua pariatur Lorem. Ipsum fugiat reprehenderit incididunt nostrud anim deserunt sint. Duis aute et nisi non irure dolor est dolore mollit tempor nisi. Exercitation velit ea labore Lorem.
-            <div className={styles.languages}><p>ajaja</p><p>sshsuhs</p></div>
+                  O projeto de login e cadastro utiliza uma combinação de tecnologias web essenciais, incluindo PHP para lógica de servidor, HTML e CSS para a interface do usuário, e MySQL para armazenamento seguro de dados. O objetivo principal é garantir uma autenticação eficiente e uma experiência de usuário intuitiva.
+            <div className={styles.languages}><p>PHP</p><p>HTML</p><p>CSS</p><p>MYSQL</p></div>
           </div>
         </div>
       </div>
@@ -74,8 +69,8 @@ export default function ProjetoPage() {
               <div className={styles.svgprojects}>
                 <Link to="https://github.com/anaclaraw/portfolio_anaclaram.git">
                   <AiOutlineGithub /></Link></div></div>
-            Ut fugiat consectetur aliqua non excepteur incididunt labore fugiat aliqua pariatur Lorem. Ipsum fugiat reprehenderit incididunt nostrud anim deserunt sint. Duis aute et nisi non irure dolor est dolore mollit tempor nisi. Exercitation velit ea labore Lorem.
-            <div className={styles.languages}><p>ajaja</p><p>sshsuhs</p></div>
+                  O meu portfólio profissional representa uma expressão autêntica da minha identidade digital, construído exclusivamente em React.js. React.js, uma biblioteca JavaScript eficiente e declarativa, foi a escolha ideal para criar uma experiência de usuário dinâmica e responsiva.
+            <div className={styles.languages}><p>REACT.JS</p><p>JAVASCRIPT</p><p>VERCEL</p></div>
           </div>
         </div>
       </div>

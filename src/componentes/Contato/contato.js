@@ -16,7 +16,7 @@ function Contato() {
           {/* <AiFillBulb /> */}
           <li><Link className={styles.linkedin} to="https://www.linkedin.com/in/euanaclaramelo"><AiOutlineLinkedin /></Link>
           </li><li><Link className={styles.git} to="https://twitter.com/"><AiFillGithub /></Link>
-          </li><li><Link className={styles.insta} to="https://www.instagram.com/anclaramelo/"><AiOutlineInstagram /></Link>
+          {/* </li><li><Link className={styles.insta} to="https://www.instagram.com/anclaramelo/"><AiOutlineInstagram /></Link> */}
           </li>
         </ul>
         <p>Visite meus projetos para conhecer <br></br>um pouco mais.</p>

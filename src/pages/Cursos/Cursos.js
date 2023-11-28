@@ -71,6 +71,21 @@ function Curso() {
           </div>
         </div>
 
+        <div className={styles.curso_item}>
+          <img className={styles.ftprojects} src='certficadoMeta.png' alt='foto_certificado'></img>
+          <div className={styles.text}>
+            <h1>Realidade aumentada</h1>
+            <strong>2023 | Meta Spark</strong>
+            <p>No curso de realidade aumentada, os tópicos abordados incluíram: uma introdução à realidade aumentada,
+               destacando suas diferenças em relação à realidade virtual; o uso do software Meta Spark Studio, 
+               incluindo download e interface; a hierarquia de elementos como luzes, canvas e textos; 
+               a criação de materiais e texturas; o Patch Editor para criar efeitos personalizados; 
+               tipos de efeitos, como target tracking e experiências imersivas; o desenvolvimento de um filtro prático;
+                como testar e publicar esses efeitos na plataforma Hub Meta Spark; e orientações sobre como construir uma carreira na área de realidade aumentada, incluindo onde atuar e onde encontrar cursos adicionais da Meta para aprendizado contínuo. </p>
+          </div>
+        </div>
+
+
 
       </div>
     </div>)

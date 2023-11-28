@@ -9,11 +9,13 @@ import Footer from './componentes/Footer';
 import ProjetoPage from './pages/pageProjects/ProjetosPage';
 import Curso from './pages/Cursos/Cursos';
 import Curriculo from './componentes/Curriculo/curriculo';
+import VLibras from '@djpfs/react-vlibras';
 
 function App() {
   return (
     <div className="App">
       
+       <VLibras forceOnload={true}  />
       <Router>
         <Navbar />
         <Routes>

@@ -1,12 +1,17 @@
+import React, {useState} from 'react'
 import styles from '../../styles/Formacoes.module.css'
 import { Link } from "react-router-dom"
-import { SiHtml5, SiCss3, SiReact, SiMysql, SiPhp, SiFuturelearn,SiNodedotjs } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiReact, SiMysql, SiPhp, SiFuturelearn,SiNodedotjs, SiGit, SiTailwindcss } from 'react-icons/si'
 import { RiCodeSSlashFill } from "react-icons/ri"
 import { RiMapPinUserFill } from "react-icons/ri"
 import {FaJava} from "react-icons/fa"
 import {TbBrandCSharp} from "react-icons/tb"
+import LegendaIcon from '../../componentes/LegendaIcon'
 
 function Formacoes() {
+   
+      
+
     return (
         <div>
             <div className={styles.container}>
@@ -23,13 +28,18 @@ function Formacoes() {
                         <h3>Programação</h3>
                         <p>Gosto da lógica de programação e entender o desenvolvimento do software por completo. Com foco em React.js, Node.js e Mysql, já tive experiência com todos os seguintes recursos:</p>
                         <div className={styles.programacao}>
-                            <li><SiHtml5 /></li>
-                            <li><SiCss3 /></li>
-                            <li><SiReact /></li>
-                            <li><SiMysql /></li>
-                            <li><SiNodedotjs/></li>
-                            <li><SiPhp/></li>
-                            <li><TbBrandCSharp/></li>
+                            {/* <li><SiHtml5 /></li> */}
+                            <li> <LegendaIcon icon={<SiCss3/>} tooltip='CSS'/></li>
+                            <li> <LegendaIcon icon={<SiReact/>} tooltip='React.js'/></li>
+                            <li> <LegendaIcon icon={<SiMysql/>} tooltip='Mysql'/></li>
+                            <li> <LegendaIcon icon={<SiNodedotjs/>} tooltip='Node.js'/></li>
+                            <li> <LegendaIcon icon={<SiPhp/>} tooltip='PHP'/></li>
+                            <li> <LegendaIcon icon={<TbBrandCSharp/>} tooltip='Csharp'/></li>
+                            <li> <LegendaIcon icon={<SiGit/>} tooltip='Git'/></li>
+                            <li> <LegendaIcon icon={<SiTailwindcss/>} tooltip='Tailwind'/></li>
+
+
+                         
                         </div>
                     </div>
                     <div className={styles.box}>

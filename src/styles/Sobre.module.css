@@ -73,6 +73,7 @@ body {
 .social_list svg {
   font-size: 300%;
   color: rgb(118, 117, 117);
+  transition: .5s all;
 }
 
 .social_list svg:hover {
@@ -165,18 +166,19 @@ body {
 
 .navScroll {
   position: fixed;
-  right: 4px;
-  top: 45%;
+  right: 17px;
+  top: 53%;
   height: min-content;
   width: min-content;
   list-style: none;
   z-index: +1;
+  
 
 }
 
 .navScroll svg {
   text-decoration: none;
-  color: rgb(179, 179, 179);
+  color: rgb(186, 183, 183);
   font-weight: 700;
   font-size: 20px;
 }
