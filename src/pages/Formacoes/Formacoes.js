@@ -44,7 +44,7 @@ function Formacoes() {
                     </div>
                     <div className={styles.box}>
                         <h3>Formações</h3>
-                        <li>2021-2023 | Técnico em Desnvolvimento de Sistemas - ETEC Ermelinda</li>
+                        <li>2021-2023 | Técnico em Desenvolvimento de Sistemas - ETEC Ermelinda</li>
                         <li>2021-2023 | Ensino médio - ETEC Ermelinda</li>
                         <li>Inglês Básico A2 | CNA idiomas</li>
 

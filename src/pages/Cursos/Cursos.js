@@ -72,16 +72,41 @@ function Curso() {
         </div>
 
         <div className={styles.curso_item}>
-          <img className={styles.ftprojects} src='certficadoMeta.png' alt='foto_certificado'></img>
+          <img className={styles.ftprojects} src='ada_front.png' alt='foto_certificado'></img>
           <div className={styles.text}>
-            <h1>Realidade aumentada</h1>
-            <strong>2023 | Meta Spark</strong>
-            <p>No curso de realidade aumentada, os tópicos abordados incluíram: uma introdução à realidade aumentada,
-               destacando suas diferenças em relação à realidade virtual; o uso do software Meta Spark Studio, 
-               incluindo download e interface; a hierarquia de elementos como luzes, canvas e textos; 
-               a criação de materiais e texturas; o Patch Editor para criar efeitos personalizados; 
-               tipos de efeitos, como target tracking e experiências imersivas; o desenvolvimento de um filtro prático;
-                como testar e publicar esses efeitos na plataforma Hub Meta Spark; e orientações sobre como construir uma carreira na área de realidade aumentada, incluindo onde atuar e onde encontrar cursos adicionais da Meta para aprendizado contínuo. </p>
+            <h1>Trilha Java</h1>
+            <strong>2023 | ADAtech</strong>
+            <p>
+            O curso trilha digital Java, oferecido pela ADAtech, é composto por quatro módulos que abordam os conceitos
+             e as práticas fundamentais da linguagem Java. Sendo eles: Introdução a linguagem Java;
+             Banco de Dados utilizando Postgres; API REST e os métodos HTTP; Git e Versionamento para controle de versões.
+              </p>
+          </div>
+        </div>
+
+        <div className={styles.curso_item}>
+          <img className={styles.ftprojects} src='ada_front.png' alt='foto_certificado'></img>
+          <div className={styles.text}>
+            <h1>Trilha Front-End</h1>
+            <strong>2023 | ADAtech</strong>
+            <p>
+            A trilha digital web front-end foi uma oportunidade de rever os conceitos de aplicações web front-end, 
+            que são aquelas que interagem com os usuários através de interfaces gráficas. Oferecido pela ADAtech o 
+            curso ensina os principais conceitos e ferramentas para o desenvolvimento de aplicações web front-end, 
+            que são as partes visíveis e interativas de um site ou aplicativo. O curso é dividido em quatro módulos, 
+            que são: Git e versionamento, que ensina a usar o Git, um sistema de controle de versão distribuído, e o 
+            GitHub, uma plataforma online que hospeda repositórios Git; HTML; CSS; e JavaScript e React, que ensinam a 
+            usar o JavaScript e o React. 
+              </p>
+          </div>
+        </div>
+
+        <div className={styles.curso_item}>
+          <img className={styles.ftprojects} src='cisco.jpg' alt='foto_certificado'></img>
+          <div className={styles.text}>
+            <h1>Cisco Network Essentials.</h1>
+            <strong>2023 | Cisco Academy</strong>
+            <p>O curso Cisco Network Essentials é um curso que ensina os fundamentos das redes de computadores. O curso explica como os dispositivos de usuário final e as redes locais interagem com a Internet global, quais são os requisitos da conectividade de rede e como configurar e solucionar problemas de redes básicas. O curso também apresenta os conceitos de segurança de rede, protocolos de rede, modelos de rede e arquiteturas de rede. </p>
           </div>
         </div>
 

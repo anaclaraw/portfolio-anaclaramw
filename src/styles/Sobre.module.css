@@ -315,11 +315,14 @@ font-size: x-large;
   .text{
     border-top: 5px solid black;
     padding-bottom : 0px;
+    margin-left: 5vw;
+    padding-top: 100px;
 
 
   }
   .bloco{
-    width: 60vw;
+    width: 70vw;
+    left: 15vw;
     height: 500px;
 
     
@@ -349,6 +352,13 @@ font-size: x-large;
   .container{
     box-shadow: none;
 
+  }
+  .bloco{
+    width: 70vw;
+    left: 15vw;
+    height: 500px;
+
+    
   }
   
   .navScroll svg {

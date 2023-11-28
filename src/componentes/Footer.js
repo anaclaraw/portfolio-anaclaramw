@@ -18,6 +18,7 @@ function Footer() {
                             <li><Link to="/Home"> Home </Link></li>
                             <li><Link to="/ProjetosPage"> Projetos </Link></li>
                             <li><Link to="/contato"> Contato </Link></li>
+                            <li><Link to="/Cursos"> Cursos</Link></li>
                             
                         </div>
                         <div className={styles.container}>

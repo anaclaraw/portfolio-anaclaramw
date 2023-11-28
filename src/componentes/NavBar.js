@@ -13,17 +13,16 @@ function Navbar() {
                 <Link to="/"> Home </Link>
             </li>
             <li className={styles.item}>
-                <a href='#formacoes'>Sobre</a>
-
+               <a href='/curriculo'>Currículo</a>      
             </li>
             <li className={styles.item}>
             <a href='/ProjetosPage'>Projetos</a>
             </li>
             <li className={styles.item}>
-                <a href='/contato' > Contato </a>
+                <a href='/Cursos'>Certificados</a>
             </li>
             <li className={styles.item}>
-               <a href='/curriculo'>Currículo</a>      
+                <a href='/contato' > Contato </a>
             </li>
         </ul></div>
     )

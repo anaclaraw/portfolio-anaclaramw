@@ -14,11 +14,7 @@ export const ThemeContext = createContext("dark");
 
 function Home() {
     const navigate = useNavigate()
-    const [theme, setTheme] = useState("dark");
-
-    const toggleTheme = () => {
-        setTheme((curr) => (curr === "light" ? "dark" : "light"));
-    };
+  
     return (
         <div >
             
@@ -39,7 +35,7 @@ function Home() {
                     <BsChevronDoubleDown />
 
                 </div>
-                <img className={styles.ftPerfil} src='ft_perfil.png' alt='foto_perfil'></img>
+                <img className={styles.ftPerfil} src='foto_eu.png' alt='foto_perfil'></img>
             </div>
             <div className={styles.social_list} id='about'>
                 <Link target={'_blank'} to="https://www.linkedin.com/in/euanaclaramelo"><AiOutlineLinkedin /></Link>

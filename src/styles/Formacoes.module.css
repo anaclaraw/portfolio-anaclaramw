@@ -152,7 +152,7 @@ filter: grayscale(150);
     list-style: none;
     text-decoration: none;
     font-weight: 500;
-    color: rgb(19, 15, 22);
+    color: rgb(57, 62, 108);
 }
 @media screen and (max-width:990px) {
     .grid {
