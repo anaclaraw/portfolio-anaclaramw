@@ -110,6 +110,15 @@ function Curso() {
           </div>
         </div>
 
+        <div className={styles.curso_item}>
+          <img className={styles.ftprojects} src='certificado_github.jpg' alt='foto_certificado'></img>
+          <div className={styles.text}>
+            <h1>Git e Github.</h1>
+            <strong>2023 | Udemy - Guilherme Romão</strong>
+            <p>Oferecido na plataforma da Udemy, o curso é uma abordagem abrangente para quem busca entender e aprimorar suas habilidades em controle de versão. Desde conceitos fundamentais do Git até práticas avançadas no GitHub, o curso proporciona uma experiência prática para iniciantes, abordando a criação e gerenciamento de repositórios locais, estratégias de branching e merging, resolução de conflitos, colaboração efetiva no GitHub.</p>
+          </div>
+        </div>
+
 
 
       </div>
