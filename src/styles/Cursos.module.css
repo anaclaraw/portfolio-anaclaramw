@@ -54,23 +54,23 @@ text-decoration: none;
     align-items: center;
     padding: 5px;
     background-color: transparent;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 8px 10px 1px 1px black;
 
   }
-
   .cursos {
     width: 80%;
-
-
   }
   .text{
     width: 90%;
     font-size: medium;
-    
+    padding-top: 0px;
   }
-  .curso_item{
-    background-color: rgb(180, 180, 180);
-    box-shadow: 8px 10px 1px 1px black;
+  .curso_item img{
+    max-width: 70vw ;
+    border-top-right-radius: 50px;
   }
+  
   
 
 
@@ -79,4 +79,12 @@ text-decoration: none;
   .text{
     font-size: smaller;
   }
+  h1{
+    font-size: x-large;
+  }
+  p{
+    font-size: medium;
+  }
+ 
+ 
 }

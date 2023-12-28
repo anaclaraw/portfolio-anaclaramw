@@ -1,5 +1,4 @@
 
-
 .op h2{
     font-size: xx-large;
     border-bottom: 5px solid black;
@@ -8,9 +7,6 @@
     margin-right: auto;
     padding: 10px;
 }
-
-
-
 .ftprojetos{
     width: 70%;
     border: 1px dashed rgb(0, 0, 0);
@@ -76,4 +72,21 @@
 }
 .ftprojetos:hover{
     transform: scale(1.01); 
+}
+
+@media screen and (max-width:800px) {
+    .itemproject{
+        flex-direction: column;
+    }
+    .itemproject img{
+        width: 80vw;
+    }
+    .textproject:hover{
+        transform: none;
+    }
+    .textproject{
+        margin: auto;
+        width: 70vw;
+        min-width: 0px;
+    }
 }

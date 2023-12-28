@@ -1,10 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import styles from '../../styles/Formacoes.module.css'
 import { Link } from "react-router-dom"
-import { SiHtml5, SiCss3, SiReact, SiMysql, SiPhp, SiFuturelearn,SiNodedotjs, SiGit, SiTailwindcss } from 'react-icons/si'
-import { RiCodeSSlashFill } from "react-icons/ri"
-import { RiMapPinUserFill } from "react-icons/ri"
-import {FaJava} from "react-icons/fa"
+import { SiCss3, SiReact, SiMysql, SiPhp, SiNodedotjs, SiGit, SiTailwindcss } from 'react-icons/si'
 import {TbBrandCSharp} from "react-icons/tb"
 import LegendaIcon from '../../componentes/LegendaIcon'
 
