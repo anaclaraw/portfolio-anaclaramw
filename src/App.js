@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       
-       <VLibras forceOnload={true}  />
+       <VLibras forceOnload={true} />
       <Router>
         <Navbar />
         <Routes>

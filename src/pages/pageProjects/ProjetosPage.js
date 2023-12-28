@@ -53,7 +53,7 @@ export default function ProjetoPage() {
           <div className={styles.textproject}>
             <div className={styles.row}><h4>Design Telas</h4>
               <div className={styles.svgprojects}>
-                <Link to="https://www.figma.com/proto/xuy4CRXpWyGVDanxeIizlm/Untitled?type=design&node-id=1-99&scaling=min-zoom&page-id=0%3A1">
+                <Link to="https://www.figma.com/@anaclaraw">
                   <FaFigma /></Link></div></div>
             Design realizados para projetos próprios, para treino de UX, TCC. Todos pelo editor gráfico Figma.
             <div className={styles.languages}><p>Figma</p><p>UX</p><p>Acessibilidade</p></div>
