@@ -21,9 +21,9 @@ function Navbar() {
             <li className={styles.item}>
                 <a href='/Cursos'>Certificados</a>
             </li>
-            <li className={styles.item}>
+            {/* <li className={styles.item}>
                 <a href='/contato' > Contato </a>
-            </li>
+            </li> */}
         </ul></div>
     )
 }
