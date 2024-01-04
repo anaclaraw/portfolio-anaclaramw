@@ -7,13 +7,12 @@ import Formacoes from '../Formacoes/Formacoes';
 import { useNavigate, Link } from 'react-router-dom';
 import { TbSquareRoundedNumber1Filled, TbSquareRoundedNumber2Filled, TbSquareRoundedNumber3Filled, TbSquareRoundedNumber4Filled, TbSquareRoundedNumber5Filled } from "react-icons/tb"
 import { BsChevronDoubleDown} from 'react-icons/bs'
-import { createContext, useState, React } from "react";
+import { createContext,React } from "react";
 
 
 export const ThemeContext = createContext("dark");
 
 function Home() {
-    const navigate = useNavigate()
   
     return (
         <div >
@@ -35,7 +34,7 @@ function Home() {
                     <BsChevronDoubleDown />
 
                 </div>
-                <img className={styles.ftPerfil} src='foto_eu.png' alt='foto_perfil'></img>
+                <img className={styles.ftPerfil} src='ft_capa.png' alt='foto_perfil'></img>
             </div>
             <div className={styles.social_list} id='about'>
                 <Link target={'_blank'} to="https://www.linkedin.com/in/euanaclaramelo"><AiOutlineLinkedin /></Link>
