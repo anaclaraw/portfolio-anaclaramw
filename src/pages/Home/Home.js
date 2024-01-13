@@ -30,7 +30,8 @@ function Home() {
             <div className={styles.container} >
                 <div className={styles.article}>
                     <h1>Prazer, sou a Ana!</h1>
-                    <p> Sou estudante da área e estou entrando no mercado em busca de me especializar cada vez mais.  Já tive contato com web, desktop, mobile e embarcados, utilizando diferentes linguagens como C#, Java, PHP, JavaScript e C++.</p>
+                    <p> Sou estudante da área e estou em busca de uma oportunidade no mercado e de me especializar cada vez mais.  Já tive contato com web, desktop, mobile e embarcados, utilizando diferentes linguagens como C#, Java, PHP, JavaScript e C++.</p>
+                    
                     <BsChevronDoubleDown />
 
                 </div>

@@ -23,7 +23,8 @@ function Contato() {
       </div>
       <form action="mailto:anaclaramelo2707@gmail.com" className={styles.form}>
         <div className={styles.input}>
-          <h3>Me mande um email, <br></br> vamos trabalhar juntos!</h3>         
+          <h3>Me mande um email, <br></br> vamos trabalhar juntos!</h3>    
+          
         </div>
 
         <button type="submit" className={styles.button}>Enviar e-mail</button> 

@@ -270,6 +270,33 @@ font-size: x-large;
   left: 20vw;
   border-radius: 50px;
 }
+.article h1 {
+  margin: auto;
+  color: #000000;
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 2.5s steps(13) infinite alternate, blink 800ms steps(13) infinite normal;
+  border-right: 3px solid #050505;
+}
+
+@keyframes typewriter {
+  from {
+      width: 0%;
+  }
+  to {
+      width: 90%;
+  }
+}
+@keyframes blink {
+  from {
+      border-color: #000000;
+  }
+  to {
+      border-color: transparent;
+  }
+}
+
 
 
 /* MEDIASSSSSSSS */
@@ -304,6 +331,8 @@ font-size: x-large;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 80px;
+
   }
   .quadrado:nth-child(n){
     background-color: aqua;
@@ -317,18 +346,22 @@ font-size: x-large;
     padding-bottom : 0px;
     margin-left: 5vw;
     padding-top: 100px;
-
-
   }
   .bloco{
     width: 70vw;
     left: 15vw;
     height: 500px;
-
-    
   }
-  .divquadrados{
-    width: 80vw;
+  .article h1{
+    font-size: xx-large;
+  }
+  @keyframes typewriter {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
   }
   
   
@@ -378,5 +411,14 @@ font-size: x-large;
       width: 60vw;
     }
   }
-
+  @keyframes typewriter {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+  }
 }
+
+
