@@ -4,7 +4,7 @@ import Projetos from '../../componentes/Projetos/Projetos';
 import Espaco from '../../componentes/espaco'
 import Contato from '../../componentes/Contato/contato'
 import Formacoes from '../Formacoes/Formacoes';
-import { useNavigate, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import { TbSquareRoundedNumber1Filled, TbSquareRoundedNumber2Filled, TbSquareRoundedNumber3Filled, TbSquareRoundedNumber4Filled, TbSquareRoundedNumber5Filled } from "react-icons/tb"
 import { BsChevronDoubleDown} from 'react-icons/bs'
 import { createContext,React } from "react";
@@ -30,7 +30,7 @@ function Home() {
             <div className={styles.container} >
                 <div className={styles.article}>
                     <h1>Prazer, sou a Ana!</h1>
-                    <p> Sou estudante da área e estou em busca de uma oportunidade no mercado e de me especializar cada vez mais.  Já tive contato com web, desktop, mobile e embarcados, utilizando diferentes linguagens como C#, Java, PHP, JavaScript e C++.</p>
+                    <p>É um prazer ter você por aqui! Sou desenvolvedora, e minha história com a programação começou por volta de três anos atrás. Desde então, venho me aprofundando nos estudos e desenvolvendo projetos. Fique à vontade para rolar a página e descobrir mais.</p>
                     
                     <BsChevronDoubleDown />
 

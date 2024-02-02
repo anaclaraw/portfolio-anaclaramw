@@ -70,9 +70,7 @@
     background-color: rgb(255, 255, 255);
     transform: translate(60px);
 }
-.ftprojetos:hover{
-    transform: scale(1.01); 
-}
+
 
 @media screen and (max-width:800px) {
     .itemproject{

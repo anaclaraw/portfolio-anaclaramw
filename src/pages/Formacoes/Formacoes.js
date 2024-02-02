@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles/Formacoes.module.css'
 import { Link } from "react-router-dom"
-import { SiCss3, SiReact, SiMysql, SiPhp, SiNodedotjs, SiGit, SiTailwindcss } from 'react-icons/si'
+import { SiCss3, SiReact, SiMysql, SiPhp, SiNodedotjs, SiGit, SiTailwindcss, SiTypescript, SiAngular  } from 'react-icons/si'
 import {TbBrandCSharp} from "react-icons/tb"
 import LegendaIcon from '../../componentes/LegendaIcon'
 
@@ -23,7 +23,7 @@ function Formacoes() {
                 <div className={styles.grid}>
                     <div className={styles.box} id={styles.teste} >
                         <h3>Programação</h3>
-                        <p>Gosto da lógica de programação e entender o desenvolvimento do software por completo. Com foco em React.js, Node.js e Mysql, já tive experiência com todos os seguintes recursos:</p>
+                        <p>Gosto da lógica de programação e entender o desenvolvimento do software por completo. Com foco em React.js, Node.js e Mysql, já tive experiência com:</p>
                         <div className={styles.programacao}>
                             {/* <li><SiHtml5 /></li> */}
                             <li> <LegendaIcon icon={<SiCss3/>} tooltip='CSS'/></li>
@@ -34,6 +34,7 @@ function Formacoes() {
                             <li> <LegendaIcon icon={<TbBrandCSharp/>} tooltip='Csharp'/></li>
                             <li> <LegendaIcon icon={<SiGit/>} tooltip='Git'/></li>
                             <li> <LegendaIcon icon={<SiTailwindcss/>} tooltip='Tailwind'/></li>
+                            <li> <LegendaIcon icon={<SiTypescript/>} tooltip='Typescript'/></li>
 
 
                          
