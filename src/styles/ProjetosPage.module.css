@@ -61,9 +61,8 @@
     color: black;
 }
 .languages{
-    display:flex;   /* Alinha os itens horizontalmente */
-    align-items: center;
-    justify-content: space-evenly;
+    font-weight: 600;
+    word-spacing: 30px;
 }
 
 .textproject:hover{

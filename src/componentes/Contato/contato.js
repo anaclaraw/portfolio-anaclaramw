@@ -1,6 +1,5 @@
-import { useForm } from "react-hook-form";
 import styles from '../../styles/Contato.module.css'
-import { AiFillGithub, AiOutlineInstagram, AiOutlineLinkedin,AiOutlineMail} from "react-icons/ai";
+import { AiFillGithub,  AiOutlineLinkedin} from "react-icons/ai";
 import {  Link } from 'react-router-dom';
 
 

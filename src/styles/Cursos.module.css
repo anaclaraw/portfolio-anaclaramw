@@ -42,9 +42,11 @@
   font-size: large;
   width: 55%;
 }
-a{
-color: black;
-text-decoration: none;
+
+
+a svg{
+ font-size:xx-large;
+ color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 800px) {
@@ -76,14 +78,8 @@ text-decoration: none;
 
 }
 @media screen and (max-width: 500px) {
-  .text{
-    font-size: smaller;
-  }
-  h1{
-    font-size: x-large;
-  }
-  p{
-    font-size: medium;
+  strong{
+    font-size: smaller
   }
  
  

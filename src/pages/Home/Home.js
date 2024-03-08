@@ -1,5 +1,5 @@
 import styles from '../../styles/Sobre.module.css'
-import { AiFillGithub, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub,  AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
 import Projetos from '../../componentes/Projetos/Projetos';
 import Espaco from '../../componentes/espaco'
 import Contato from '../../componentes/Contato/contato'
