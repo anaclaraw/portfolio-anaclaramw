@@ -11,7 +11,8 @@ const Card = ({ cursos }) => {
                     <h1>{curso.title}</h1>
                     <strong>{curso.subtitle}</strong>
                     <p>{curso.text}</p>
-                    <Link to={curso.link} > <IoMdLink/> </Link>
+                    { curso.link ? <Link to={curso.link} >  <IoMdLink/> </Link> : ''}
+                    
                 </div>
             </div>
         ))

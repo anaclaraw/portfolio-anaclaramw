@@ -3,7 +3,7 @@ import { AiFillGithub,  AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai"
 import Projetos from '../../componentes/Projetos/Projetos';
 import Espaco from '../../componentes/espaco'
 import Contato from '../../componentes/Contato/contato'
-import Formacoes from '../Formacoes/Formacoes';
+import Formacoes from '../../componentes/Home/Formacoes'
 import {  Link } from 'react-router-dom';
 import { TbSquareRoundedNumber1Filled, TbSquareRoundedNumber2Filled, TbSquareRoundedNumber3Filled, TbSquareRoundedNumber4Filled, TbSquareRoundedNumber5Filled } from "react-icons/tb"
 import { BsChevronDoubleDown} from 'react-icons/bs'

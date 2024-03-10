@@ -16,7 +16,7 @@ const Card = ({ projetosArray }) => {
           <div className={styles.row}>
             <h4>{projeto.title}</h4>
             <div className={styles.svgprojects}>
-              <Link to={projeto.link}><AiOutlineGithub /></Link>
+              <Link to={projeto.link}>{projeto.icon ? projeto.icon :  <AiOutlineGithub /> }</Link>
             </div>
           </div>
           {projeto.text}
