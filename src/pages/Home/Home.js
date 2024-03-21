@@ -29,8 +29,8 @@ function Home() {
 
             <div className={styles.container} >
                 <div className={styles.article}>
-                    <h1>Prazer, sou a Ana!</h1>
-                    <p>É um prazer ter você por aqui! Sou desenvolvedora, e minha história com a programação começou por volta de três anos atrás. Desde então, venho me aprofundando nos estudos e desenvolvendo projetos. Fique à vontade para rolar a página e descobrir mais.</p>
+                    <h1 >Prazer, <div className={styles.apresentacao}>sou a Ana!</div></h1>
+                    <p>Que privilégio você por aqui! Sou desenvolvedora, e minha história com a programação começou por volta de três anos atrás. Desde então, venho me aprofundando nos estudos e desenvolvendo projetos. Fique à vontade para rolar a página e descobrir mais.</p>
                     
                     <BsChevronDoubleDown />
 

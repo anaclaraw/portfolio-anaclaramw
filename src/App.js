@@ -13,7 +13,7 @@ import Curriculo from './componentes/Curriculo/curriculo';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       
        {/* <VLibras forceOnload={true} /> */}
       <Router>

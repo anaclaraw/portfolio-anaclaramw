@@ -6,7 +6,7 @@ import { cursos } from "../../data/cursos";
 function Curso() {
   return (
     <div className={styles.all}>
-      <h1 className={styles.title}>CURSOS COMPLEMENTARES E CERTIFICADOS</h1>
+      <h2 className={styles.title}>Cursos complementares e certificados</h2>
       <div className={styles.cursos}>
         <Card cursos={cursos} />
       </div>

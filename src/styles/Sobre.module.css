@@ -166,7 +166,7 @@ body {
 .navScroll {
   position: fixed;
   right: 17px;
-  top: 53%;
+  top: 44%;
   height: min-content;
   width: min-content;
   list-style: none;
@@ -269,7 +269,7 @@ font-size: x-large;
   left: 20vw;
   border-radius: 50px;
 }
-.article h1 {
+.apresentacao {
   margin: auto;
   color: #000000;
   font-size: 40px;
@@ -284,7 +284,7 @@ font-size: x-large;
       width: 0%;
   }
   to {
-      width: 90%;
+      width: 50%;
   }
 }
 @keyframes blink {
