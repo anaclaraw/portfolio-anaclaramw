@@ -35,7 +35,7 @@ function Home() {
                     <BsChevronDoubleDown />
 
                 </div>
-                <img className={styles.ftPerfil} src='ft_capa.png' alt='foto_perfil'></img>
+                <img className={styles.ftPerfil} src='euPixar.png' alt='foto_perfil'></img>
             </div>
             <div className={styles.social_list} id='about'>
                 <Link target={'_blank'} to="https://www.linkedin.com/in/euanaclaramelo"><AiOutlineLinkedin /></Link>
