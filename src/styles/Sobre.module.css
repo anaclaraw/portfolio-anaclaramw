@@ -222,9 +222,6 @@ font-size: x-large;
 .img_projects img:nth-child(2){
   margin-left: 100px;
   animation: go-back 6s infinite alternate;
-
-
-  
 }
 .img_projects img:hover{
   filter: saturate(300%) drop-shadow(5px 5px 5px black);
@@ -239,11 +236,12 @@ font-size: x-large;
   margin-top: 20px;
   background-color: #000000;
 
-
 }
+
 .quadrado:nth-child(2){
   margin-left: 150px;
 }
+
 @keyframes go-back {
     0% {
         transform: translateX(0px);
@@ -252,12 +250,12 @@ font-size: x-large;
         transform: translateX(-50px);
     }
 }
+
 .text p {
   width: 80%;
   margin-top: 0;
   font-size: large;
   margin-left: 40px;
-
 }
 
 .bloco{
@@ -269,6 +267,7 @@ font-size: x-large;
   left: 20vw;
   border-radius: 50px;
 }
+
 .apresentacao {
   margin: auto;
   color: #000000;
@@ -287,6 +286,7 @@ font-size: x-large;
       width: 50%;
   }
 }
+
 @keyframes blink {
   from {
       border-color: #000000;
@@ -306,7 +306,6 @@ font-size: x-large;
 }
 
 /* MEDIASSSSSSSS */
-
 @media screen and (max-width:990px) {
   .container {
     background-color: rgb(178, 178, 178);
@@ -333,20 +332,20 @@ font-size: x-large;
   .ftPerfil {
     width: 35vw;
   }
+
   .divquadrados{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 80px;
-
   }
+
   .quadrado:nth-child(n){
     background-color: aqua;
     height: 0px;
     width: 0px;
-
-
   }
+
   .text{
     border-top: 5px solid black;
     padding-bottom : 0px;
@@ -360,9 +359,11 @@ font-size: x-large;
     left: 15vw;
     height: 500px;
   }
+
   .article h1{
     font-size: xx-large;
   }
+
   @keyframes typewriter {
     from {
         width: 0%;
@@ -371,8 +372,6 @@ font-size: x-large;
         width: 100%;
     }
   }
-  
-  
 }
 
 @media screen and (max-width:520px) {

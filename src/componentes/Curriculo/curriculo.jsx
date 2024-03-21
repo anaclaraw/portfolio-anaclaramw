@@ -4,10 +4,10 @@ const Curriculo = () => {
   return (
     <div >       
       <iframe
-        src="crl_port.pdf" 
+        src="crl_portifolio.pdf" 
         title="PDF Viewer"
-        width="100%"
-        height= "1100px"
+        width="99%"
+        height= "900px"
       ></iframe>
 </div>
   )
