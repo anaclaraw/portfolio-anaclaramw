@@ -1,12 +1,5 @@
 export const cursos = [
     {
-        title: "Oficina de Hardware",
-        foto: "hardware_img.png",
-        subtitle: "2023 | FATEC Santana de Parnaíba",
-        text: "Aulas presenciais de perifericos até sistemas operacionais. Com compreensão sólida dos elementos fundamentais do hardware de computador e estará pronto para realizar upgrades, solucionar problemas e tomar decisões informadas sobre a escolha de componentes para construir ou melhorar seu próprio sistema. Este conhecimento é valioso tanto para entusiastas de tecnologia quanto para profissionais de TI que desejam aprimorar suas habilidades em hardware de computador.",
-
-    },
-    {
         title: "Design de Aplicativos na Transformação Digital",
         foto: "cursodatd.png",
         subtitle: "2023 | Escola virtual do governo",
@@ -21,6 +14,13 @@ export const cursos = [
         link: "https://www.credly.com/badges/332c5198-47c2-4946-b366-ddfc0ab49132/public_url"
     },
     {
+        title: "Oficina de Hardware",
+        foto: "hardware_img.png",
+        subtitle: "2023 | FATEC Santana de Parnaíba",
+        text: "Aulas presenciais de perifericos até sistemas operacionais. Com compreensão sólida dos elementos fundamentais do hardware de computador e estará pronto para realizar upgrades, solucionar problemas e tomar decisões informadas sobre a escolha de componentes para construir ou melhorar seu próprio sistema. Este conhecimento é valioso tanto para entusiastas de tecnologia quanto para profissionais de TI que desejam aprimorar suas habilidades em hardware de computador.",
+
+    },
+    {
         title: "Lógica de programação",
         foto: "logprog.png",
         subtitle: "2023 | Cubos academy",
@@ -32,21 +32,18 @@ export const cursos = [
         foto: "certficadoMeta.png",
         subtitle: "2023 | Meta Spark",
         text: "No curso de realidade aumentada, os tópicos abordados incluíram: uma introdução à realidade aumentada, destacando suas diferenças em relação à realidade virtual; o uso do software Meta Spark Studio, incluindo download e interface; a hierarquia de elementos como luzes, canvas e textos; a criação de materiais e texturas; o Patch Editor para criar efeitos personalizados; tipos de efeitos, como target tracking e experiências imersivas; o desenvolvimento de um filtro prático; como testar e publicar esses efeitos na plataforma Hub Meta Spark; e orientações sobre como construir uma carreira na área de realidade aumentada, incluindo onde atuar e onde encontrar cursos adicionais da Meta para aprendizado contínuo.",
-
     },
     {
         title: "Trilha Java",
         foto: "adajava.png",
         subtitle: "2023 | ADAtech",
         text: " O curso trilha digital Java, oferecido pela ADAtech, é composto por quatro módulos que abordam os conceitos e as práticas fundamentais da linguagem Java. Sendo eles: Introdução a linguagem Java; Banco de Dados utilizando Postgres; API REST e os métodos HTTP; Git e Versionamento para controle de versões.",
-
     },
     {
         title: "Trilha Front-End",
         foto: "ada_front.png",
         subtitle: "2023 | ADAtech",
         text: " A trilha digital web front-end foi uma oportunidade de rever os conceitos de aplicações web front-end, que são aquelas que interagem com os usuários através de interfaces gráficas. Oferecido pela ADAtech o curso ensina os principais conceitos e ferramentas para o desenvolvimento de aplicações web front-end, que são as partes visíveis e interativas de um site ou aplicativo. O curso é dividido em quatro módulos, que são: Git e versionamento, que ensina a usar o Git, um sistema de controle de versão distribuído, e o GitHub, uma plataforma online que hospeda repositórios Git; HTML; CSS; e JavaScript e React, que ensinam a usar o JavaScript e o React.",
-
     },
     {
         title: "Cisco Network Essentials.",
@@ -82,6 +79,12 @@ export const cursos = [
         subtitle: "2024 | DIO",
         text: "O bootcamp de Angular da DIO foi uma experiência abrangente que me permitiu desenvolver habilidades essenciais para me tornar um desenvolvedor proficientes em Angular. Começamos com uma base sólida em HTML e CSS, aprendendo a criar interfaces web responsivas. Aprendi sobre o funcionamento do DOM e técnicas de renderização web, além dos fundamentos do JavaScript, como funções, classes e componentização pura, que são essenciais para o desenvolvimento em Angular. Por fim, explorei o funcionamento do Angular, incluindo módulos, componentes, serviços, diretivas e roteamento.",
         link: "https://www.dio.me/certificate/XLMSFMPY/share"
+    },
+    {
+        title: "Palestra - Por que investir? Criando seu futuro com educação financeira.",
+        foto: "certficado_investimentos.png",
+        subtitle: "2024 | FIAP",
+        text: "A palestra sobre investimentos e educação financeira que participei foi incrivelmente esclarecedora. entendi a importância de diversificar os investimentos em diferentes setores, pois isso ajuda a reduzir o risco e aumentar as chances de retorno e sempre manter uma reserva de emergência. Foi interessante também aprender sobre os diferentes níveis de risco associados a cada tipo de investimento e como isso influencia minhas decisões de investimento. Um dos pontos mais valiosos da palestra foi a explicação sobre a variação entre a taxa SELIC e as ações. Compreendi melhor como essas flutuações afetam meus investimentos e como posso tomar decisões mais informadas com base nesses insights. A palestra também destacou a importância de começar a investir, mesmo que cometa erros no início, pois é assim que se aprende e se cresce no mundo dos investimentos, sempre em busca de boas oportunidades.",
     },
     // {
     //     title: "",

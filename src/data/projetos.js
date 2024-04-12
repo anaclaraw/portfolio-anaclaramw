@@ -36,6 +36,13 @@ export const projetos = [
     link:"https://github.com/anaclaraw/portfolio_anaclaram.git" ,
     languages:"REACT.JS JAVASCRIPT VERCEL",
  },
+ {
+   title:"Landing Page",
+   foto:"site_nanci.png", 
+   text:"A landing page sobre delivery de salgados desenvolvi focando na experiência dos clientes fornecendo as informações necessá    rias. Com um cardápio virtual, os usuários podem navegar pelos diferentes produtos oferecidos. Além disso, um carrossel de avaliações destaca feedbacks positivos de clientes satisfeitos, ajudando a construir confiança e credibilidade. Para facilitar ainda mais o processo de pedido, o projeto inclui um direcionamento direto para o WhatsApp, onde os clientes podem fazer seus pedidos de forma rápida e prática. Desenvolvido em React e Vite, e com deploy no Vercel." ,
+   link:"https://www.figma.com/community/file/1360444243873542429/landing-page-food-restaurant-salgados",
+   languages:"REACT JSX JAVASCRIPT VERCEL",
+},
 //  {
 //     title:"",
 //     foto:"", 
