@@ -1,12 +1,34 @@
-# Getting Started with Create React App
+# Meu portifólio :coffee:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse foi um dos projetos que mais gostei de fazer, sempre tive o desejo de criar um portfólio e particulamente acho que ficou bem a minha cara. Nele mostro meus projetos, cursos, formações e outras informações relevantes.
+ ps: Estou sempre o atualizando e também aceito dicas e sugestões. Espero que tenha gostado.
 
-## Available Scripts
+### **Tecnologias Utilizadas**
 
-In the project directory, you can run:
+* React: Biblioteca JavaScript para interfaces interativas.
+* Create React App (CRA): Ferramenta para iniciar projetos React rapidamente.
+* JSON: Formato de arquivo leve para armazenar dados estruturados.
+* CSS: Linguagem de estilo para formatar a aparência do portfólio.
 
-### `npm start`
+### **Estrutura de Pastas**
+
+```
+public/
+├── fotos/  // Imagens do perfil e projetos
+└── pdfs/   // Documentos em PDF (currículo, portfólio impresso)
+
+src/
+├── componentes/  // Componentes reutilizáveis (cabeçalho, navegação, seções)
+├── pages/      // Páginas do portfólio (Home, Cursos, Formações, Projetos)
+├── styles/     // Estilos CSS (cores, fontes, layout)
+└── data/       // Arquivos JSON com dados do portfólio (projetos, cursos, etc.)
+```
+
+[Acesse aqui!]([../../linux/overview.md#managed-disks](https://portfolio-anaclaramw.vercel.app/))
+
+## Recursos
+
+## Para rodar localmente em sua máquina será necessario: / To run it on your computer you will need:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
