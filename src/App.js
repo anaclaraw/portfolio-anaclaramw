@@ -14,10 +14,9 @@ import Curriculo from './componentes/Curriculo';
 function App() {
   return (
     <div className="App" >
-      
        {/* <VLibras forceOnload={true} /> */}
       <Router>
-        <Navbar />
+        <Navbar /> {/*Inserindo Navbar em todas as páginas*/}
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/contato" element={<Contato />} />
@@ -28,11 +27,9 @@ function App() {
           <Route path='/curriculo' element={<Curriculo/>}/> 
         </Routes>
         <div id='footer'>
-        <Footer/> </div>
+        <Footer/> {/*Inserindo Footer em todas as páginas*/}
+        </div>
       </Router>
-      
-
-
     </div>
   );
 }
