@@ -86,8 +86,15 @@ export const cursos = [
         subtitle: "2024 | FIAP",
         text: "A palestra sobre investimentos e educação financeira que participei foi incrivelmente esclarecedora. entendi a importância de diversificar os investimentos em diferentes setores, pois isso ajuda a reduzir o risco e aumentar as chances de retorno e sempre manter uma reserva de emergência. Foi interessante também aprender sobre os diferentes níveis de risco associados a cada tipo de investimento e como isso influencia minhas decisões de investimento. Um dos pontos mais valiosos da palestra foi a explicação sobre a variação entre a taxa SELIC e as ações. Compreendi melhor como essas flutuações afetam meus investimentos e como posso tomar decisões mais informadas com base nesses insights. A palestra também destacou a importância de começar a investir, mesmo que cometa erros no início, pois é assim que se aprende e se cresce no mundo dos investimentos, sempre em busca de boas oportunidades.",
     },
+    {
+        title: "Python para Data Science: trabalhando com funções, estruturas de dados e exceções",
+        foto: "certificado_python_datascience.png",
+        subtitle: "2024 | Alura",
+        text: "Esse curso me equipou com as ferramentas essenciais para iniciar minha jornada em ciência de dados, manipulando e analisando dados. Aprendi e prátiquei funções básicas e lambdas, tuplas, listas, expressões lambda, built-in functions, tratamento de exceções, raise e dict comprehension, me tornando um proficiente em Python para Data Science. Trabalhamos desde o básico até problemas mais estruturados, foi uma ótima experiência.",
+        link: "https://cursos.alura.com.br/certificate/anaclaramelo2707/python-data-science-funcoes-estruturas-dados-excecoes"
+    },
     // {
-    //     title: "",
+    //     title: "Python para Data Science: trabalhando com funções, estruturas de dados e exceções",
     //     foto: "",
     //     subtitle: "",
     //     text: "",

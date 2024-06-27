@@ -1,7 +1,8 @@
-import { FaFigma } from 'react-icons/fa'
+import { FaFigma} from 'react-icons/fa'
+import { IoIosLink } from "react-icons/io";
 export const projetos = [
  {
-    title:"Locadora",
+    title:"ERP Locadora",
     foto:"ftlocadora.png", 
     text:"O projeto em C# para uma locadora de carros visa criar um sistema de gerenciamento completo, utilizando o paradigma CRUD (Create, Read, Update, Delete) para interagir com um banco de dados MySQL. Este sistema permitirá que a locadora registre novos veículos em seu inventário (Create), consulte informações sobre carros disponíveis (Read), atualize dados quando necessário (Update) e remova registros obsoletos (Delete). Isso proporcionará uma gestão eficaz e eficiente dos recursos da locadora, melhorando a experiência tanto para a empresa quanto para seus clientes." ,
     link:"https://github.com/anaclaraw/Locadora.git" ,
@@ -22,13 +23,21 @@ export const projetos = [
     languages:"PHP MYSQL CSS HTML",
  },
  {
-    title:"Design Telas",
+    title:"Layout Designs",
     foto:"designtelas.png", 
     text:"Design realizados para projetos próprios, para treino de UX, TCC. Todos pelo editor gráfico Figma." ,
     link:"https://www.figma.com/@anaclaraw" ,
     languages:"Figma UX Acessibilidade ",
     icon:<FaFigma />
  },
+ {
+   title:"Site EMC",
+   foto:"emc.png", 
+   text:"Esse foi meu primeiro desenvolvimento Freelancer, foi uma ótima ecperiência de contato direto com o cliente. Desenvolvi desde o protótipo até a aplicação que hoje está no ar. O EMC foi desenvolvido em JS, HTML, CSS e Python(Flask). Fiquei totalemente responsável pelo front-end utilizando técnicas como mobile-first, responsividade, dinamismo, foco em UX, estratégia de cores e fontes, entre outros.  " ,
+   link:"https://www.espacomulhercampesina.com.br/" ,
+   languages:"JAVASCRIPT PYTHON HEROKU",
+   icon:<IoIosLink/>
+},
  {
     title:"Portifólio",
     foto:"portfolio.png", 
@@ -43,6 +52,7 @@ export const projetos = [
    link:"https://www.figma.com/community/file/1360444243873542429/landing-page-food-restaurant-salgados",
    languages:"REACT JSX JAVASCRIPT VERCEL",
 },
+
 //  {
 //     title:"",
 //     foto:"", 
