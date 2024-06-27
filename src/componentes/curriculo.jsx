@@ -4,7 +4,7 @@ const Curriculo = () => {
   return (
     <div >
       <iframe
-        src="anaclara_curriculo.pdf"
+        src="curriculo_junho.pdf"
         title="PDF Viewer"
         width="99%"
         height="900px"
