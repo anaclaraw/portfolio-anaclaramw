@@ -1,9 +1,9 @@
 import styles from '../../styles/Sobre.module.css'
 import { AiFillGithub,  AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
-import Projetos from '../../componentes/Projetos/Projetos';
-import Espaco from '../../componentes/espaco'
-import Contato from '../../componentes/Contato/contato'
-import Formacoes from '../../componentes/Home/Formacoes'
+import Projetos from '../../componentes/ProjetosList';
+import Espaco from '../../componentes/Espaco'
+import Contato from '../../componentes/contato'
+import Formacoes from '../../componentes/FormacoesResume'
 import {  Link } from 'react-router-dom';
 import { TbSquareRoundedNumber1Filled, TbSquareRoundedNumber2Filled, TbSquareRoundedNumber3Filled, TbSquareRoundedNumber4Filled, TbSquareRoundedNumber5Filled } from "react-icons/tb"
 import { BsChevronDoubleDown} from 'react-icons/bs'

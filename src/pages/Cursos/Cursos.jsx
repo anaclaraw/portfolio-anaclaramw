@@ -1,5 +1,5 @@
 import styles from "../../styles/Cursos.module.css"
-import Card from "../../componentes/CursosPage/Card";
+import Card from "../../componentes/CursoCard";
 import { cursos } from "../../data/cursos";
 // import {Link} from "react-router-dom"
 
