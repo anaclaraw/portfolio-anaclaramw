@@ -49,8 +49,16 @@ export const projetos = [
    title:"Landing Page",
    foto:"site_nanci.png", 
    text:"A landing page sobre delivery de salgados desenvolvi focando na experiência dos clientes fornecendo as informações necessá    rias. Com um cardápio virtual, os usuários podem navegar pelos diferentes produtos oferecidos. Além disso, um carrossel de avaliações destaca feedbacks positivos de clientes satisfeitos, ajudando a construir confiança e credibilidade. Para facilitar ainda mais o processo de pedido, o projeto inclui um direcionamento direto para o WhatsApp, onde os clientes podem fazer seus pedidos de forma rápida e prática. Desenvolvido em React e Vite, e com deploy no Vercel." ,
-   link:"https://www.figma.com/community/file/1360444243873542429/landing-page-food-restaurant-salgados",
+   link:"https://nanci-salgados.vercel.app/",
    languages:"REACT JSX JAVASCRIPT VERCEL",
+   icon:<IoIosLink/>
+},
+{
+   title:"Mr. Blue",
+   foto:"mr_blue.png", 
+   text:"Desenvolvi este aplicativo como parte da avaliação semestral da FIAP, intitulada 'Global Solution', que neste semestre foi realizada em parceria com o Oceans 20, um grupo de engajamento em prol dos oceanos e da economia azul. A proposta desta aplicação é apresentar minha ideia de utilizar visão computacional, especificamente o Python YOLOv8, para a detecção de garrafas no oceano através de drones. Na página, os usuários podem aprender tudo sobre a ideia e como ela funciona. O objetivo do projeto é incentivar a participação da população na contribuição para um futuro melhor, exibindo dados sobre a gravidade do problema e a importância de abordar este tema." ,
+   link:"https://github.com/anaclaraw/mr_blue-client_side",
+   languages:"JAVASCRIPT HTML CSS PYTHON",
 },
 
 //  {
