@@ -77,5 +77,6 @@ npm start
 
 O projeto será aberto em seu navegador padrão.
 
-
+#### 🌱 Fique á vontade para navegar pelo meu projeto, qualquer coisa pode entrar em contato comigo por lá ;)
+[Acesse por aqui 🔗](https://portfolio-anaclaramw.vercel.app/)
 
