@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../styles/Formacoes.module.css'
 import { Link } from "react-router-dom"
-import { SiCss3, SiReact, SiMysql, SiPhp, SiNodedotjs, SiGit, SiTailwindcss, SiTypescript } from 'react-icons/si'
-import {TbBrandCSharp} from "react-icons/tb"
+import { SiCss3, SiReact, SiMysql, SiPhp, SiNodedotjs, SiGit, SiTailwindcss } from 'react-icons/si'
+import {TbBrandCSharp,TbBrandPython} from "react-icons/tb"
 import LegendaIcon from './LegendaIcon'
 
 function Formacoes() {
@@ -34,7 +34,7 @@ function Formacoes() {
                             <li> <LegendaIcon icon={<TbBrandCSharp/>} tooltip='Csharp'/></li>
                             <li> <LegendaIcon icon={<SiGit/>} tooltip='Git'/></li>
                             <li> <LegendaIcon icon={<SiTailwindcss/>} tooltip='Tailwind'/></li>
-                            <li> <LegendaIcon icon={<SiTypescript/>} tooltip='Typescript'/></li>
+                            <li> <LegendaIcon icon={<TbBrandPython />} tooltip='Python'/></li>
 
 
                          
