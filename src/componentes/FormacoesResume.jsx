@@ -36,7 +36,6 @@ function Formacoes() {
                             <li> <LegendaIcon icon={<SiTailwindcss/>} tooltip='Tailwind'/></li>
                             <li> <LegendaIcon icon={<TbBrandPython />} tooltip='Python'/></li>
 
-
                          
                         </div>
                     </div>
@@ -45,14 +44,15 @@ function Formacoes() {
                         <li>2024-2027 | Engenharia de Software - FIAP</li>
                         <li>2021-2023 | Técnico em Desenvolvimento de Sistemas - ETEC Ermelinda</li>
                         <li>2021-2023 | Ensino Médio Integrado - ETEC Ermelinda</li>
-                        {/* <li>Inglês Básico A2 | CNA idiomas</li> */}
+                       <li>Inglês Intermediário A2 | CNA idiomas</li> 
 
                     </div>
 
                     <div className={styles.box}>
                         <h3>Cursos Complementares</h3>
-                        <li>AWS Academy Cloud Foundations - SENAI "Nadir Dias de Figueiredo" </li>
-                        <li>Cisco Networking Essentials</li>
+                        {/* <li>AWS Academy Cloud Foundations - SENAI "Nadir Dias de Figueiredo" </li> */}
+                        <li>Cisco Networking Essentials - Cisco/ETEC</li>
+                        <li>T-Academy Cloud - ProWay</li>
                         <li><Link to="/Cursos" className={styles.link}> + Mais e certificados </Link></li>
 
                     </div>

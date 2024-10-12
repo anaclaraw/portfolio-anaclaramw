@@ -74,13 +74,6 @@ export const cursos = [
         link: "https://www.dio.me/certificate/4C921991/share"
     },
     {
-        title: "Bootcamp - Desenvolvimento Frontend com Angular",
-        foto: "boot_angular.jpg",
-        subtitle: "2024 | DIO",
-        text: "O bootcamp de Angular da DIO foi uma experiência abrangente que me permitiu desenvolver habilidades essenciais para me tornar um desenvolvedor proficientes em Angular. Começamos com uma base sólida em HTML e CSS, aprendendo a criar interfaces web responsivas. Aprendi sobre o funcionamento do DOM e técnicas de renderização web, além dos fundamentos do JavaScript, como funções, classes e componentização pura, que são essenciais para o desenvolvimento em Angular. Por fim, explorei o funcionamento do Angular, incluindo módulos, componentes, serviços, diretivas e roteamento.",
-        link: "https://www.dio.me/certificate/XLMSFMPY/share"
-    },
-    {
         title: "Palestra - Por que investir? Criando seu futuro com educação financeira.",
         foto: "certficado_investimentos.png",
         subtitle: "2024 | FIAP",
@@ -92,6 +85,58 @@ export const cursos = [
         subtitle: "2024 | Alura",
         text: "Esse curso me equipou com as ferramentas essenciais para iniciar minha jornada em ciência de dados, manipulando e analisando dados. Aprendi e prátiquei funções básicas e lambdas, tuplas, listas, expressões lambda, built-in functions, tratamento de exceções, raise e dict comprehension, me tornando um proficiente em Python para Data Science. Trabalhamos desde o básico até problemas mais estruturados, foi uma ótima experiência.",
         link: "https://cursos.alura.com.br/certificate/anaclaramelo2707/python-data-science-funcoes-estruturas-dados-excecoes"
+    },
+    {
+        title: "Git e Github",
+        foto: "alura_git_github.png",
+        subtitle: "2024 | Alura",
+        text: "Em 'Git and GitHub: Mastering Code Version Control', aprofundei minhas habilidades no controle de versão, aprendendo a utilizar o Git e o GitHub para colaborar em projetos de forma organizada. O curso me ensinou a lidar com branches, merges e pull requests, ferramentas essenciais para um trabalho em equipe eficiente.",
+        link: "https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo"
+    },
+    {
+        title: "NGINX: Servidor Web, Proxy Reverso e API Gateway",
+        foto: "alura_ngnix.png",
+        subtitle: "2024 | Alura",
+        text: "No curso 'NGINX: Servidor Web, Proxy Reverso e API Gateway', entendi como o NGINX pode ser usado para configurar servidores web, atuar como proxy reverso e gerenciar a entrega de APIs. Aprendi a otimizar o desempenho de aplicações web, garantindo alta disponibilidade e segurança no tráfego de rede.",
+        link: "https://cursos.alura.com.br/course/nginx-servidor-web-proxy-reverso-api-gateway"
+    },
+    {
+        title: "Swagger: Documentando suas APIs",
+        foto: "alura_swagger.png",
+        subtitle: "2024 | Alura",
+        text: "No curso 'Swagger: Documentando suas APIs', aprendi a importância de uma boa documentação para APIs, utilizando o Swagger para gerar descrições interativas e padronizadas. Isso facilita a comunicação entre desenvolvedores e permite uma melhor compreensão e uso das APIs, otimizando o desenvolvimento de software.",
+        link: "https://cursos.alura.com.br/course/swagger-documentando-apis"
+    },
+    {
+        title: "Fundamento de Redes",
+        foto: "certificado_t_academy_redes.png",
+        subtitle: "2024 | T-Academy",
+        text: "No curso de Fundamentos de Redes, aprendi sobre os principais conceitos e componentes que tornam a comunicação entre dispositivos possível. Entendi como funcionam protocolos como o TCP/IP, DNS, e DHCP, e como eles são essenciais para a transmissão de dados. Explorei também o modelo OSI e as camadas de rede, compreendendo como cada uma delas desempenha um papel fundamental na estruturação das redes. ",
+    },
+    {
+        title: "Contruindo Arquiteturas no Azure",
+        foto: "dio_art_azure.webp",
+        subtitle: "2024 | DIO",
+        text: "No curso 'Construindo Arquiteturas no Azure', aprendi os conceitos fundamentais para projetar soluções escaláveis e seguras na nuvem. Explorei as boas práticas de arquitetura no Azure, como a utilização de recursos distribuídos e de alta disponibilidade. Foi uma introdução valiosa para entender como estruturar aplicações que atendem a demandas variadas.",
+    },
+    {
+        title: "Computação e Rede na Azure",
+        foto: "dio_rede_azure.webp",
+        subtitle: "2024 | DIO",
+        text: "Em 'Computação e Rede no Azure', aprofundei meu conhecimento sobre a infraestrutura de rede na plataforma. Aprendi a configurar redes virtuais (VNet), balanceadores de carga e outras soluções para garantir a conectividade e a segurança dos sistemas na nuvem. Esse módulo me mostrou como os recursos de rede são a base para qualquer solução na Azure.",
+        link: "https://www.dio.me/certificate/IC1DJFYH/share"
+    },
+    {
+        title: "Criando máquinas Virtuais na Azure",
+        foto: "dio_vm_azure.webp",
+        subtitle: "2024 | DIO",
+        text: "No curso 'Criando Máquinas Virtuais na Azure e Configurando uma Instância de Banco de Dados', tive a oportunidade de criar e gerenciar máquinas virtuais (VMs), configurando-as de acordo com as necessidades da aplicação. Além disso, aprendi a criar e configurar uma instância de banco de dados na nuvem, garantindo o armazenamento seguro e eficiente dos dados.",
+    },
+    {
+        title: "Configurando ums instância de Banco de Dados na Azure",
+        foto: "dio_bd_azure.webp",
+        subtitle: "2024 | DIO",
+        text: "Nesse curso pude entender melhor as formas de armazenamento na Azure e suas configurações. Também aprendi sobre os tipos de redundância. Criamos um VM e uma instância de SQL.",
     },
     // {
     //     title: "Python para Data Science: trabalhando com funções, estruturas de dados e exceções",
