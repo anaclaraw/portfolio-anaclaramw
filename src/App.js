@@ -8,7 +8,7 @@ import Contato from './componentes/contato';
 import Footer from './componentes/Footer/Footer';
 import ProjetoPage from './pages/Projetos/Projetos';
 import Curso from './pages/Cursos/Cursos';
-import Curriculo from './componentes/Curriculo';
+import Curriculo from './componentes/Curriculo/Curriculo';
 // import VLibras from '@djpfs/react-vlibras';
 
 function App() {
