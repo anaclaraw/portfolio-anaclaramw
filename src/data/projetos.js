@@ -60,6 +60,14 @@ export const projetos = [
    link:"https://github.com/anaclaraw/mr_blue-client_side",
    languages:"JAVASCRIPT HTML CSS PYTHON",
 },
+{
+   title:"RAZZO",
+   foto:"razzo.png", 
+   text:"Eu e minha equipe desenvolvemos a aplicação Razzo, uma plataforma dedicada aos fãs de automobilismo, abrangendo competições como Fórmula E, Fórmula 1, NASCAR, WEC e Rally. Dentro dela, os usuários podem montar suas próprias equipes de atletas e ganhar moedas virtuais conforme o desempenho deles em cada corrida. Além disso, há uma seção de palpites, onde os usuários podem prever resultados e ganhar mais moedas quando acertam. Para deixar a experiência ainda mais emocionante, a Razzo possui um mapa interativo onde é possível acompanhar as corridas em tempo real. Os usuários que possuem ingressos para qualquer um dos campeonatos têm a chance de ganhar moedas bônus, incentivando a presença nos eventos. E ao final de cada campeonato, os pontos acumulados pelos usuários ao longo da temporada os colocam na disputa por um super prêmio." ,
+   link:"https://anaclaraw.github.io/razzo_client/",
+   languages:"JAVASCRIPT HTML CSS LEAFLET ",
+   icon:<IoIosLink/>
+},
 
 //  {
 //     title:"",
