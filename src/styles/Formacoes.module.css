@@ -44,7 +44,7 @@
   }
 #teste .programacao{
 background-color: rgb(255, 255, 255);
-width: 100%;
+width: 90%;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;

@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from '../styles/Formacoes.module.css'
 import { Link } from "react-router-dom"
-import { SiCss3, SiReact, SiMysql, SiPhp, SiNodedotjs, SiGit, SiTailwindcss } from 'react-icons/si'
+import { SiCss3, SiReact, SiMysql, SiPhp, SiNodedotjs, SiGit, SiTailwindcss, SiDocker } from 'react-icons/si'
 import {TbBrandCSharp,TbBrandPython} from "react-icons/tb"
+import { VscAzure } from "react-icons/vsc";
 import LegendaIcon from './LegendaIcon'
 
 function Formacoes() {
@@ -22,19 +23,21 @@ function Formacoes() {
                 </div>
                 <div className={styles.grid}>
                     <div className={styles.box} id={styles.teste} >
-                        <h3>Programação</h3>
+                        <h3>Tecnologias</h3>
                         <p>Gosto da lógica de programação e entender o desenvolvimento do software por completo. Com foco em React.js, Node.js e Mysql, já tive experiência com:</p>
                         <div className={styles.programacao}>
                             {/* <li><SiHtml5 /></li> */}
                             <li> <LegendaIcon icon={<SiCss3/>} tooltip='CSS'/></li>
                             <li> <LegendaIcon icon={<SiReact/>} tooltip='React.js'/></li>
+                            <li> <LegendaIcon icon={<TbBrandPython />} tooltip='Python'/></li>
                             <li> <LegendaIcon icon={<SiMysql/>} tooltip='Mysql'/></li>
                             <li> <LegendaIcon icon={<SiNodedotjs/>} tooltip='Node.js'/></li>
                             <li> <LegendaIcon icon={<SiPhp/>} tooltip='PHP'/></li>
                             <li> <LegendaIcon icon={<TbBrandCSharp/>} tooltip='Csharp'/></li>
                             <li> <LegendaIcon icon={<SiGit/>} tooltip='Git'/></li>
                             <li> <LegendaIcon icon={<SiTailwindcss/>} tooltip='Tailwind'/></li>
-                            <li> <LegendaIcon icon={<TbBrandPython />} tooltip='Python'/></li>
+                            <li> <LegendaIcon icon={<SiDocker />} tooltip='Docker'/></li>
+                            <li> <LegendaIcon icon={<VscAzure />} tooltip='Azure'/></li>
 
                          
                         </div>
@@ -43,7 +46,7 @@ function Formacoes() {
                         <h3>Formações</h3>
                         <li>2024-2027 | Engenharia de Software - FIAP</li>
                         <li>2021-2023 | Técnico em Desenvolvimento de Sistemas - ETEC Ermelinda</li>
-                        <li>2021-2023 | Ensino Médio Integrado - ETEC Ermelinda</li>
+                        <li>2024 | Bootcamp Cloud - T-Academy</li>
                        <li>Inglês Intermediário A2 | CNA idiomas</li> 
 
                     </div>

@@ -138,12 +138,18 @@ export const cursos = [
         subtitle: "2024 | DIO",
         text: "Nesse curso pude entender melhor as formas de armazenamento na Azure e suas configurações. Também aprendi sobre os tipos de redundância. Criamos um VM e uma instância de SQL.",
     },
-    // {
+    {
+        title: "Bootcamp Cloud T-Academy",
+        foto: "certificado_t-academy.png",
+        subtitle: "2024 | Proway",
+        text: "Projeto de 200h com aulas ao vivo e atividades em grupo, sobre Windows, Linux, virtualização, Docker, Azure, AWS e redes. Habilidades: Sistemas operacionais, Cloud Computing, IAM, redes, virtualização, DevOps. ",
+       
+    },
+// {
     //     title: "Python para Data Science: trabalhando com funções, estruturas de dados e exceções",
     //     foto: "",
     //     subtitle: "",
     //     text: "",
     //     link: "#"
     // },
-
 ]

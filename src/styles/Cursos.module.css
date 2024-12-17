@@ -32,7 +32,7 @@
 }
 
 .ftprojects {
-  width: 470px;
+  width: 55%;
   box-shadow: 1px;
 }
 
@@ -75,7 +75,10 @@ a svg{
     border-top-right-radius: 50px;
   }
   
-  
+  .ftprojects {
+    width: 470px;
+    box-shadow: 1px;
+  }
 
 
 }
